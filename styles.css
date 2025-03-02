@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-     body {
+ body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             display: flex;
@@ -8,17 +8,15 @@
             align-items: center;
             height: 100vh;
         }
-        .form-container {
+        .container {
             background: white;
             padding: 20px;
-            border-radius: 10px;
+            border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             width: 300px;
         }
-        h2 {
-            text-align: center;
-        }
         label {
+            font-weight: bold;
             display: block;
             margin-top: 10px;
         }
@@ -29,25 +27,21 @@
             border: 1px solid #ccc;
             border-radius: 5px;
         }
-        .checkbox-container {
+        .checkbox-label {
             display: flex;
             align-items: center;
-        }
-        .checkbox-container input {
-            width: auto;
-            margin-right: 10px;
+            gap: 10px;
         }
         button {
-            width: 100%;
-            padding: 10px;
-            margin-top: 15px;
-            border: none;
-            background-color: #28a745;
+            background-color: #d9534f;
             color: white;
-            font-size: 16px;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            margin-top: 15px;
             cursor: pointer;
             border-radius: 5px;
         }
         button:hover {
-            background-color: #218838;
+            background-color: #c9302c;
         }
